@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `group18`.`User` (
   `FirstName` VARCHAR(30) NOT NULL,
   `LastName` VARCHAR(30) NOT NULL,
   `Email` VARCHAR(50) NOT NULL,
-  `Password` VARCHAR(50) NOT NULL,
+  `Password` VARCHAR(64) NOT NULL,
   `Reputation` INT ZEROFILL NULL,
   `Major` INT NOT NULL,
   PRIMARY KEY (`ID`),
